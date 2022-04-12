@@ -1,0 +1,913 @@
+*::-webkit-scrollbar-thumb {
+    background-color: #000000 !important;
+}
+.b24-form * {
+  	font-size: .7rem;
+    font-family: "bysg font",Sans-serif !important;
+    letter-spacing: 0.5px;
+}
+.b24-form-field {
+  	margin-bottom: 0px !important;
+}
+.b24-form-field-layout-section {
+    margin: 0 !important;
+}
+.b24-form-control-list-selector-item-title span, .b24-form-control-list-selector-item-price > * {
+    font-size: 0.6rem !important;
+    padding: 5px;
+}
+label.b24-form-control-container input[type="checkbox"]:checked::before {
+    display: none !important;
+}
+.b24-form-control-container input[type="checkbox"] {
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+}
+.homelink{
+  width: initial;
+  height: inherit;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: block;
+  position: absolute;
+  z-index: 100;
+}
+.dd .wee, .droplist .wee {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 100%;
+  left: auto;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  padding: 0.2rem;
+  z-index: 1002;
+  transition: 0.1s;
+}
+.droplist > div > .wee:after{
+  transform: rotateZ(-135deg);
+}
+.droplist:hover > div > .wee{
+  transform: rotateX(180deg);
+  transition: 0.3s;
+}
+.hover > div > .wee::after {
+  transform: rotateZ(45deg);
+  transition: 0.3s;
+}
+.wee::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  transform: rotateZ(-45deg);
+  border-bottom: 2px solid #e7452d;
+  border-right: 2px solid #e7452d;
+  border-left: 0px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.dd .wee{
+  width: 15%;
+  height: calc(100% - 0.4rem);
+}
+.dd .wee::after {
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.sub-btn .disabled:after,
+.sub-btn.disabled:after {
+  content: "в разработке";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: "bysg font", Arial, sans-serif;
+  font-size: 0.5rem;
+  line-height: 2.5;
+  border: 1px solid #fff;
+  background-color: #23282db5;
+}
+.sub-btn.disabled:after {
+  line-height: 34px;
+  border-radius: 5px;
+  width: 60%;
+  height: 60%;
+  font-size: 0.4rem;
+}
+
+.sub-btn .disabled:after {
+  line-height: 2.5vw;
+}
+.elementor-slideshow__header,
+.elementor-slideshow__footer {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "bysg font", Arial, sans-serif;
+  letter-spacing: 1.5px;
+}
+*:not(.nav, .nav *)::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e5472d;
+}
+.grasspopup ::-webkit-scrollbar-thumb {
+  background-color: #019939;
+}
+.hokk ::-webkit-scrollbar-thumb {
+  background-color: #1e69aa;
+}
+/*--hock--*/
+body.hock::-webkit-scrollbar-thumb {
+  background-color: #1E69AA;
+}
+.nav.hock .dropdown,
+.nav-fix.hock .main-btn {
+  background-color: #1E69AA;
+}
+.nav.hock h3,
+.nav.hock h2,
+.nav.hock i,
+.footer_map.hock h2,
+.footer_info.hock h2 {
+  color: #1E69AA !important;
+}
+#footer-btn.hock,
+#footer-btn2.hock {
+  background-color: #1E69AA !important;
+}
+#footer-btn.hock:hover,
+#footer-btn2.hock:hover {
+  background-color: #fff !important;
+  color: #1E69AA;
+}
+.nav.hock .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TB.svg);
+}
+.nav-fix.hock .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TW.svg);
+}
+.nav.hock .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LH.svg);
+}
+.nav-fix.hock .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LW.svg);
+}
+.hock .droplist > div > .wee::after {
+  border-right: 2px solid #1E69AA;
+  border-bottom: 2px solid #1E69AA;
+}
+.nav.hock .sub-btn:hover:after {
+  border-right: 1px solid #1E69AA40;
+  border-left: 1px solid #1E69AA40;
+  border-bottom: 1px solid #1E69AA40;
+}
+/*--end hock--*/
+/*--grass--*/
+body.grass::-webkit-scrollbar-thumb {
+  background-color: #019939;
+}
+.nav.grass .dropdown,
+.nav-fix.grass .main-btn {
+  background-color: #019939;
+}
+.nav.grass h3,
+.nav.grass h2,
+.nav.grass i,
+.footer_map.grass h2,
+.footer_info.grass h2 {
+  color: #019939 !important;
+}
+#footer-btn.grass,
+#footer-btn2.grass {
+  background-color: #019939 !important;
+}
+#footer-btn.grass:hover,
+#footer-btn2.grass:hover {
+  background-color: #fff !important;
+  color: #019939;
+}
+.nav.grass .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TB.svg);
+}
+.nav-fix.grass .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TW.svg);
+}
+.nav.grass .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LG.svg);
+}
+.nav-fix.grass .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LW.svg);
+}
+.grass .droplist > div > .wee::after {
+  border-right: 2px solid #019939;
+  border-bottom: 2px solid #019939;
+}
+.nav.grass .sub-btn:hover:after {
+  border-right: 1px solid #01993940;
+  border-left: 1px solid #01993940;
+  border-bottom: 1px solid #01993940;
+}
+/*--end grass--*/
+/*--pp--*/
+body.pp::-webkit-scrollbar-thumb {
+  background-color: #365148;
+}
+.nav.pp .dropdown,
+.nav-fix.pp .main-btn {
+  background-color: #365148;
+}
+.nav.pp h3,
+.nav.pp h2,
+.nav.pp i,
+.footer_map.pp h2,
+.footer_info.pp h2 {
+  color: #365148 !important;
+}
+footer.pp .elementor-icon-list-item:hover .elementor-icon-list-text, footer.hock .elementor-icon-list-item:hover .elementor-icon-list-text{
+  color: #000 !important;
+}
+#footer-btn.pp,
+#footer-btn2.pp {
+  background-color: #365148 !important;
+}
+#footer-btn.pp:hover,
+#footer-btn2.pp:hover {
+  background-color: #fff !important;
+  color: #365148;
+}
+.nav.pp .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TB.svg);
+}
+.nav-fix.pp .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TW.svg);
+}
+.nav.pp .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LP-1.svg);
+}
+.nav-fix.pp .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LW.svg);
+}
+.pp .droplist > div > .wee::after {
+  border-right: 2px solid #365148;
+  border-bottom: 2px solid #365148;
+}
+.nav.pp .sub-btn:hover:after {
+  border-right: 1px solid #36514840;
+  border-left: 1px solid #36514840;
+  border-bottom: 1px solid #36514840;
+}
+.footer-cls.pp, .footer-cls.hock{
+  background-color: #fff !important;
+}
+/*--end pp--*/
+.nav {
+  height: 75px;
+  display: flex;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  z-index: 99;
+  transition: all 0.5s;
+}
+.nav * {
+  letter-spacing: 1.5px;
+}
+.nav *:focus {
+  outline: none;
+}
+.head_logo,
+.head_city,
+#sub-navs {
+  display: flex;
+  height: 100%;
+  top: 0;
+  transform: translateY(0px);
+  transition: all 0.3s;
+}
+.head_logo,
+.head_city {
+  width: 15%;
+  margin: 0 !important;
+}
+.head_logo a {
+  width: 100%;
+  display: inherit;
+  position: absolute;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+#sub-navs {
+  width: 100%;
+  padding: 0 10%;
+}
+.head_logo:before {
+  content: "";
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TB.svg);
+  background-size: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: all 0.3s;
+}
+.nav-fix .head_logo:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/TW.svg);
+}
+.head_city {
+  margin: 0;
+}
+.head_city i {
+  position: absolute;
+  margin: auto;
+  margin-left: 3%;
+  top: 0;
+  bottom: 0;
+  font-size: calc(0.4vw + 0.3em);
+  color: #54595f;
+  height: calc(0.5vw + 0.3em);
+}
+.head_city h2 {
+  margin: auto;
+  color: var(--e-global-color-secondary);
+  font-family: "bysg font", Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.head_city h2:hover,
+.head_city h2:hover > .head_city i {
+  color: #54595f !important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.head_city.dropdown {
+  width: max-content;
+  text-align: center;
+  z-index: 100;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: 50px 10% 10%;
+  width: 80%;
+  overflow: hidden;
+  background-color: #e7452d;
+  border-radius: 5px;
+  box-shadow: 0px -4px 10px -4px rgb(0 0 0 / 50%);
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.dropdown li {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  height: 0;
+  transition: 0.3s;
+}
+
+.sub-btn:hover span.dropdown > li,
+span.dropdown li:hover > .sub-drop > li,
+.sub-drop:hover > li {
+  transition: 0.3s;
+  padding: 5px;
+  height: 2.5vw;
+}
+ul.sub-drop.dropdown {
+  left: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.nav .sub-btn:hover:after {
+  border-color: #e5472d40;
+  height: 10%;
+}
+.nav .sub-btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+  width: 60%;
+  height: 0;
+  margin: auto;
+  border-top: none;
+  border-left: 1px solid #cccccc40;
+  border-right: 1px solid #cccccc40;
+  border-bottom: 1px solid #cccccc40;
+  transition: .3s;
+}
+.nav .sub-btn.new:before {
+  content: "Новинка!";
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: .5rem;
+  top: 0;
+  bottom: 60%;
+  color: #e7452d;
+  width: 44%;
+  height: 0;
+  margin: auto;
+  border-top: none;
+}
+.sub-btn:hover span.dropdown,
+span.dropdown li:hover > .sub-drop {
+  transition: 0.3s;
+  overflow: unset;
+}
+.head_city.dropdown.active li {
+  transition: 0.3s;
+  margin: 5px;
+  height: 25px;
+}
+.nav .main-btn {
+  background: transparent;
+  width: 75px;
+  position: relative;
+  height: 75px;
+  border: 0;
+  margin: auto;
+  transition: all 0.1s;
+  opacity: 1;
+  border-radius: 10px;
+}
+.nav .main-btn:focus {
+  outline: none;
+}
+.nav .main-btn:before {
+  content: "";
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LR.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-position: center;
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+.nav-fix .main-btn:before {
+  background-image: url(https://sportsmens.ru/wp-content/uploads/LW.svg);
+  background-size: 100%;
+}
+.nav-fix .main-btn {
+  background-color: #e7452d;
+  height: 80px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  transition: 0.5s;
+}
+.nav-fix .main-btn:hover{
+  box-shadow: 0 0 10px rgb(0 0 0 / 0%);
+}
+.nav-fix .main-btn:hover:before {
+  background-image: none;
+}
+.menu-arrow-svg {
+  opacity: 0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.nav-fix .main-btn:hover .menu-arrow-svg {
+  opacity: 1;
+}
+.nav .sub-btn {
+  background: transparent;
+  flex: 1;
+  position: relative;
+  height: 75%;
+  border: 0;
+  margin: auto;
+  transition: 0.3s;
+  opacity: 1;
+  border-radius: 10px;
+}
+.nav a.sub-btn {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+.nav .sub-btn h3 {
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  color: #23282d;
+  font-family: "bysg font", Arial, sans-serif;
+  font-size: 0.5vw;
+}
+.dropdown a {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 15%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.dropdown a span {
+  color: #ffffff;
+  margin: auto 0;
+  text-align: start !important;
+  font-size: 0.4vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "bysg font", Arial, sans-serif;
+}
+.dropdown li:hover {
+  box-shadow: inset 0 0 4px 2px #00000040;
+}
+.nav-fix {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  transition: all 0.5s;
+}
+.nav-fix {
+  background-color: #23282d;
+}
+.nav-fix .sub-btn h3 {
+  color: #fff !important;
+}
+.menu-arrow {
+  animation: 1s linear 0s infinite blink;
+}
+
+.menu-arr-t {
+  animation-delay: 0.25s;
+}
+.menu-mobile-btn {
+  display: none;
+}
+
+@keyframes blink {
+  0 {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 850px) {
+  .pp.nav-fix .droplist>div>.wee::after {
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+  }
+  .sub-btn:hover span.dropdown > li,
+span.dropdown li:hover > .sub-drop > li,
+.sub-drop:hover > li {
+  margin-bottom: 10px !important;
+}
+}
+@media (max-width: 850px) {
+  .nav #sub-navs,
+  .nav .head_city,
+  .nav .head_logo,
+  .nav .wee {
+    display: none;
+  }
+  .hide {
+    flex: 0 !important;
+    opacity: 0 !important;
+    height: 0 !important;
+  }
+  .nav {
+    height: 100%;
+    position: fixed;
+    width: 0%;
+    right: 0;
+    background: none;
+    max-height: 100vh;
+    z-index: 1001;
+    transition: all 0.1s;
+  }
+  .nav,
+  .nav > * {
+    flex-direction: column;
+    flex: 1;
+  }
+  .nav *{
+    overflow: hidden;
+    border-radius: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; 
+  }
+  .nav.active #sub-navs,
+  .nav.active .head_city {
+    display: flex;
+  }
+  .nav .droplist .wee {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15%;
+    height: calc(100% - 0.4rem);
+    left: auto;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    padding: 0.2rem;
+    border-left: 1px solid #cccccc40;
+    z-index: 1002;
+    transition: 0.1s;
+  }
+  .nav .droplist.active .wee::after {
+    transform: rotateZ(-135deg);
+    transition: 0.3s;
+  }
+  .wee::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    transform: rotateZ(-45deg);
+    border-bottom: 2px solid #e7452d;
+    border-right: 2px solid #e7452d;
+    border-left: 0px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .dd .wee::after {
+    border-color: #fff;
+    transform: rotateZ(-45deg) !important;
+  }
+  .dd.active > div .wee::after {
+    transform: rotateZ(-135deg) !important;
+  }
+  .dropdown li {
+    transition: 0.3s;
+    padding: 0 !important;
+    height: 100% !important;
+    flex: 1;
+  }
+  .sub-btn:hover .wee::before {
+    opacity: 0;
+  }
+  .sub-btn:hover .wee::after {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+  }
+  .nav.active {
+    width: 75%;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 50%);
+  }
+  .sub-btn:hover span.dropdown,
+  span.dropdown li:hover > .sub-drop {
+    display: flex;
+    overflow: auto;
+  }
+  .sub-btn .disabled:after {
+    line-height: 5vh;
+  }
+  
+  .head_city,
+  .main-btn {
+    width: 100%;
+    margin: 0 auto !important;
+    background-color: #fff;
+    z-index: 1001;
+  }
+  .head_logo:before {
+    margin-left: 0;
+    background-position: center;
+    background-size: 50%;
+    transition: all 0s;
+  }
+  .nav #sub-navs {
+    padding: 0;
+    overflow-y: scroll;
+    border-radius: 0;
+    background-color: white;
+    z-index: 1000;
+  }
+  .nav.active #sub-navs {
+    padding: 4% 0;
+    flex: 10;
+  }
+  .nav .main-btn {
+    width: 100%;
+  }
+  .nav .main-btn:before {
+    background-image: url(https://sportsmens.ru/wp-content/uploads/LOGO2B-1.svg);
+    width: 50%;
+  }
+  .nav.grass .main-btn:before {
+    background-image: url(https://sportsmens.ru/wp-content/uploads/LOGO2BG-1.svg);
+  }  
+  .nav.hock .main-btn:before {
+    background-image: url(https://sportsmens.ru/wp-content/uploads/LOGO2BH-1.svg);
+  }
+  .nav.pp .main-btn:before {
+    background-image: url(https://sportsmens.ru/wp-content/uploads/LOGO2BP-1.svg);
+  }
+  .menu-mobile-btn {
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 20px;
+    left: auto;
+    bottom: auto;
+    display: block;
+    margin: auto;
+    flex: none;
+    border-radius: 10px;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1005;
+    box-shadow: 0px 5px 32px -11px rgb(0 0 0 / 50%);
+  }
+  .menu-mobile-btn:before,
+  .menu-mobile-btn:after,
+  .menu-mobile-btn span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    transform-origin: 50% 50%;
+    transition: 0.3s;
+    border-bottom: 4px solid;
+  }
+  .menu-mobile-btn span:after {
+    transform: translateY(-2px);
+  }
+  .menu-mobile-btn:before {
+    transform: translateY(-14px);
+  }
+  .menu-mobile-btn:after {
+    transform: translateY(10px);
+  }
+  .menu-mobile-btn.active::after {
+    transform: translateY(0px) rotate(-45deg);
+}
+
+.menu-mobile-btn.active::before {
+    transform: translateY(0px) rotate(45deg);
+}
+  .menu-mobile-btn.active span::after {
+    transform: translateY(0px) rotate(45deg);
+}
+  .nav.active .menu-mobile-btn:before {
+    transform: translateY(0) rotate(-45deg);
+  }
+  .nav.active .menu-mobile-btn:after {
+    transform: translateY(0) rotate(45deg);
+  }
+  .nav.active .menu-mobile-btn span {
+    display: none;
+  }
+  .nav .sub-btn {
+    width: inherit;
+    padding: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+  }
+  .nav .sub-btn:after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    border: none;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #cccccc40;
+  }
+  .nav .sub-btn:last-child:after {
+    border-bottom: none;
+  }
+  .nav .sub-btn a {
+    width: inherit;
+  }
+  .sub-btn.droplist.active > div {
+    position: relative;
+    height: 10%;
+    width: 100%;
+  }
+  .dropdown li div {
+    width: inherit;
+    height: 100%;
+    margin: auto;
+  }
+  li.dd.active > div {
+    position: relative;
+    height: 10%;
+  }
+  .nav .sub-btn h3 {
+    font-size: 2.5vw;
+    padding: 2rem;
+    height: fit-content;
+  }
+
+  .nav .dropdown {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: auto 0;
+    height: 0;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 10px 1px rgb(0 0 0 / 50%);
+    border-radius: 0;
+  }
+  .dropdown.active li {
+    width: 100%;
+    padding: 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  ul.sub-drop.dropdown {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .dropdown li span {
+    font-size: 2.5vw;
+    padding: 20px 0;
+  }
+  .sub-btn.droplist.active > .dropdown {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .dd.active > .sub-drop.dropdown {
+    left: 0;
+    height: 90%;
+    transition: 0.3s;
+  }
+}
